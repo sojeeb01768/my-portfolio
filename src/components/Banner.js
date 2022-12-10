@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import sojeebImg from "../assets/img/sojeeb.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -68,6 +68,9 @@ export const Banner = () => {
                   {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
                 </div>}
             </TrackVisibility>
+          </Col>
+          <Col>
+            <img src={sojeebImg} alt="" />
           </Col>
 
         </Row>

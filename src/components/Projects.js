@@ -26,18 +26,7 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: projImg3,
     },
-    {
-      description: "Design & Development",
-      imgUrl: projImg4,
-    },
-    {
-      description: "Design & Development",
-      imgUrl: projImg5,
-    },
-    {
-      description: "Design & Development",
-      imgUrl: projImg6,
-    },
+
   ];
 
   return (
