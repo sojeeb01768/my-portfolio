@@ -16,7 +16,7 @@ export const Skills = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 4
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -30,35 +30,51 @@ export const Skills = () => {
 
   return (
     <section className="skill" id="skills">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
-                        <h2>About Skills</h2>
-                        <p>I have learned different programming languages ​​so far and as far as my skills are concerned<br></br></p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>English</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                        </Carousel>
-                    </div>
-                </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="skill-bx wow zoomIn">
+              <h2>About Skills</h2>
+              <p>I have learned different programming languages ​​so far and as far as my skills are concerned<br></br></p>
+              {/* <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider"> */}
+              <div className="item">
+                {/* <img src={meter1} alt="Image" /> */}
+                <h3>HTML - 80%</h3>
+              </div>
+              <div className="item">
+                {/* <img src={meter2} alt="Image" /> */}
+                <h3>CSS - 80%</h3>
+              </div>
+              <div className="item">
+                {/* <img src={meter3} alt="Image" /> */}
+                <h3>JavaScript - 70%</h3>
+              </div>
+              <div className="item">
+                {/* <img src={meter1} alt="Image" /> */}
+                <h3>ReactJS - 65%</h3>
+              </div>
+              <div className="item">
+                {/* <img src={meter1} alt="Image" /> */}
+                <h3>NodeJS - 40%</h3>
+              </div>
+              <div className="item">
+                {/* <img src={meter1} alt="Image" /> */}
+                <h3>ExpressJS - 40%</h3>
+              </div>
+              <div className="item">
+                {/* <img src={meter1} alt="Image" /> */}
+                <h3>MongoDB - 45%</h3>
+              </div>
+              <div className="item">
+                {/* <img src={meter1} alt="Image" /> */}
+                <h3>Firebase - 60%</h3>
+              </div>
+              {/* </Carousel> */}
             </div>
+          </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+      </div>
+      <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
   )
 }
