@@ -56,8 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
-                  <div className="btn btn-secondary m-5 px-5">
-                    <a className="text-white text-decoration-none" href="https://drive.google.com/file/d/1eNy_1b5E73BDpEJjkqwKaqw0h8fxOuKx/view?usp=share_link" target="_blank" >My Resume </a>
+                  <div className="btn btn-light m-5 px-5 py-3">
+                    <a className="text-black text-decoration-none" href="https://drive.google.com/file/d/1eNy_1b5E73BDpEJjkqwKaqw0h8fxOuKx/view?usp=share_link" target="_blank" >My Resume </a>
                   </div>
                   <h1>{`Hi! I'm Al-Kafee`} <span className="txt-rotate" dataPeriod="100" data-rotate='[ "Front-End Web Developer", "ReactJS Developer", "MERN-Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>
